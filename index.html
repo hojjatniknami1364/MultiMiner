@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>MultiMiner by nwoolls</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>MultiMiner</h1>
+        <p>Your Coins. Your Pools. Your way.</p>
+
+        <p class="view"><a href="https://github.com/nwoolls/MultiMiner">View the Project on GitHub <small>nwoolls/MultiMiner</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/nwoolls/MultiMiner/releases">Download <strong>Releases</strong></a></li>
+          <li><a href="https://github.com/nwoolls/MultiMiner/zipball/master">Download <strong>Source</strong></a></li>
+          <li><a href="https://github.com/nwoolls/MultiMiner">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><strong>MultiMiner</strong> is a graphical application for crypto-coin mining on Windows, OS X and Linux. MultiMiner simplifies switching individual devices (GPUs, ASICs, FPGAs) between crypto-currencies such as Bitcoin and Litecoin.</p>
+
+<p>MultiMiner uses the underlying mining engine (<a href="https://github.com/luke-jr/bfgminer">bfgminer</a>) to detect available mining devices and then presents a user interface for selecting the coins you'd like to mine.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Main%20Screen.png" alt="Main Screen" title="Main Screen"></p>
+
+<p>MultiMiner also offers several views, allowing you to display as much or as little information as you like.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Brief%20View.png" alt="Brief View" title="Brief View"></p>
+
+<p>For new users, MultiMiner includes a Getting Started wizard that walks you through selecting an engine, a coin, a pool, and configuring <a href="http://www.mobileminerapp.com">MobileMiner</a>.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Getting%20Started.png" alt="Getting Started" title="Getting Started"></p>
+
+<p>MultiMiner will automatically download and install the latest version of <a href="https://github.com/luke-jr/bfgminer">bfgminer</a>, making it simple for the new user to get started.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Downloading%20and%20Installing%20Bfgminer.png" alt="Downloading and Installing Cgminer" title="Downloading and Installing Cgminer"></p>
+
+<p>You can then use the Configure Coins dialog to setup each coin that you would like to mine along with their pools, including support for load balancing.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Configure%20Coins.png" alt="Configure Coins" title="Configure Coins"></p>
+
+<p>MultiMiner supports automatically mining the most profitable coins based on a set of configurable strategies. Profitability information is updated regularly from <a href="http://coinchoose.com/">CoinChoose.com</a>.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Configure%20Strategies.png" alt="Configure Strategies" title="Configure Strategies"></p>
+
+<p>MultiMiner also supports features such as relaunching crashed miners, starting with Windows, minimizing to the notification area, and mining on startup.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Settings.png" alt="Settings" title="Settings"></p>
+
+<p>You can also use the interface provided by MultiMiner to adjust advanced settings such as API white-listing, disabling GPU mining, and automatically adjusting mining intensity based on the computer's idle time.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Advanced%20Miner%20Settings.png" alt="Advanced Miner Settings" title="Advanced Miner Settings"></p>
+
+<p>Finally, MultiMiner supports <a href="http://www.mobileminerapp.com">MobileMiner</a>, an open API with mobile apps for remotely monitoring and controlling your rigs.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/MobileMiner.png" alt="MobileMiner" title="MobileMiner"></p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/MobileMiner%20-%20Android.png" alt="MobileMiner - Android" title="MobileMiner - Android"></p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/MobileMiner%20-%20Windows%20Phone.png" alt="MobileMiner - Windows Phone" title="MobileMiner - Windows Phone"></p>
+
+<p>By entering your MobileMiner email address and application key in the Configure Settings dialog, you will be able to remotely monitor and control your rigs <em>without having to open any firewalls or forward any ports</em>.</p>
+
+<h2>
+<a name="downloads" class="anchor" href="#downloads"><span class="octicon octicon-link"></span></a>Downloads</h2>
+
+<p>You can download installers and zip files for Windows, OS X, Linux and Mono on the <a href="https://github.com/nwoolls/MultiMiner/releases">GitHub Releases page</a>.</p>
+
+<h2>
+<a name="drivers" class="anchor" href="#drivers"><span class="octicon octicon-link"></span></a>Drivers</h2>
+
+<p>Depending on your OS and the mining devices you plan on using you will need one or more of the following drivers / kernel extensions installed:</p>
+
+<ul>
+<li><a href="http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx">Block Erupter</a></li>
+<li><a href="http://minecoin.net/bluefuryredfury-driver-for-windows/">Blue / Red Fury</a></li>
+<li><a href="http://www.ftdichip.com/Drivers/VCP.htm">BFL / Bitforce</a></li>
+<li><a href="http://zadig.akeo.ie/">HashBuster Micro</a></li>
+<li><a href="http://store.bitcoin.org.pl/support">Bi•Fury</a></li>
+<li><a href="http://support.amd.com/en-us/download">AMD GPU</a></li>
+</ul><h2>
+<a name="windows-installation" class="anchor" href="#windows-installation"><span class="octicon octicon-link"></span></a>Windows Installation</h2>
+
+<ol>
+<li>Download and run the installer (.exe) file at the above link and follow instructions</li>
+</ol><p>The installer runs without needing admin rights and does not install to Program Files so as not to be intrusive. However, if you prefer you can use the zip file:</p>
+
+<ol>
+<li>Download and extract the .zip file at the <a href="https://github.com/nwoolls/MultiMiner/releases">GitHub Releases page</a>
+</li>
+<li>Launch MultiMiner.Win.exe to get started</li>
+</ol><h2>
+<a name="os-x-installation" class="anchor" href="#os-x-installation"><span class="octicon octicon-link"></span></a>OS X Installation</h2>
+
+<ol>
+<li>Install Xquartz available <a href="http://xquartz.macosforge.org/">here</a>
+</li>
+<li>Install the latest version of <a href="http://www.mono-project.com/Main_Page">Mono</a>
+</li>
+<li>Download and extract the <strong>.app</strong>.zip file at the <a href="https://github.com/nwoolls/MultiMiner/releases">GitHub Releases page</a>
+</li>
+<li>Launch MultiMiner.app to get started</li>
+</ol><p>MultiMiner will automatically download redistributable binaries of bfgminer from the <a href="http://xgminer.com">xgminer-osx</a> project.</p>
+
+<p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Main%20Screen%20-%20OS%20X.png" alt="Main Screen - OS X" title="Main Screen - OS X"></p>
+
+<h2>
+<a name="linux-installation-debian-based" class="anchor" href="#linux-installation-debian-based"><span class="octicon octicon-link"></span></a>Linux Installation (Debian-Based)</h2>
+
+<ol>
+<li>
+<p>Install the latest version of <a href="http://www.mono-project.com/Main_Page">Mono</a></p>
+
+<pre><code>sudo apt-get install mono-complete
+</code></pre>
+</li>
+<li>
+<p>Install your chosen mining engine</p>
+
+<pre><code>sudo add-apt-repository ppa:unit3/bfgminer
+sudo apt-get update
+sudo apt-get install bfgminer
+</code></pre>
+</li>
+<li><p>Download and extract the .zip file at the <a href="https://github.com/nwoolls/MultiMiner/releases">GitHub Releases page</a></p></li>
+<li>
+<p>Run MultiMiner.Win.exe using mono:</p>
+
+<pre><code>mono MultiMiner.Win.exe
+</code></pre>
+</li>
+</ol><p><img src="https://github.com/nwoolls/MultiMiner/raw/master/Screenshots/Main%20Screen%20-%20Linux.png" alt="Main Screen - Linux" title="Main Screen - Linux"></p>
+
+<h2>
+<a name="generic-mono-installation" class="anchor" href="#generic-mono-installation"><span class="octicon octicon-link"></span></a>Generic Mono Installation</h2>
+
+<ol>
+<li>Download and extract the zip file at the <a href="https://github.com/nwoolls/MultiMiner/releases">GitHub Releases page</a>
+</li>
+<li>Install bfgminer. For OS X, you can find packages and for doing so <a href="http://homebrew.xgminer.com">here</a> and instructions for using them <a href="http://howto.xgminer.com">here</a>.</li>
+<li>Install X11. Under OS X you should install Xquartz available <a href="http://xquartz.macosforge.org/">here</a>.</li>
+<li>Install the latest version of <a href="http://www.mono-project.com/Main_Page">Mono</a>.</li>
+<li>
+<p>Run MultiMiner.Win.exe using mono:</p>
+
+<pre><code>mono MultiMiner.Win.exe
+</code></pre>
+</li>
+</ol><h2>
+<a name="support" class="anchor" href="#support"><span class="octicon octicon-link"></span></a>Support</h2>
+
+<p>The official forums for MultiMiner can be found <a href="http://talk.multiminerapp.com">here</a>.</p>
+
+<h2>
+<a name="source-code" class="anchor" href="#source-code"><span class="octicon octicon-link"></span></a>Source Code</h2>
+
+<p>The source code is structured in such a way that it should be fairly easy to use and re-use for other projects:</p>
+
+<ul>
+<li>
+<strong>MultiMiner.Xgminer</strong> is an assembly for controlling the bfgminer executable - e.g. launching and enumerating devices</li>
+<li>
+<strong>MultiMiner.Xgminer.Api</strong> assists in communicating with the underlying miner via the RPC API</li>
+<li>
+<strong>MultiMiner.Coinchoose.Api</strong> assists in consuming the cypto-currency information available at <a href="http://coinchoose.com/">CoinChoose.com</a>
+</li>
+<li>
+<strong>MultiMiner.MobileMiner.Api</strong> facilitates communicating with the <a href="http://www.mobileminerapp.com">MobileMiner</a> REST API</li>
+<li>
+<strong>MultiMiner.Engine</strong> is an assembly that can be used to interact with all functionality found in MultiMiner, but without a UI - useful for creating front-ends for other OS's</li>
+<li>
+<strong>MultiMiner.Win</strong> is the Windows Forms application</li>
+</ul><h2>
+<a name="source-code-example" class="anchor" href="#source-code-example"><span class="octicon octicon-link"></span></a>Source Code Example</h2>
+
+<p>This simple example shows how to use <a href="https://github.com/nwoolls/MultiMiner/tree/master/MultiMiner.Xgminer">MultiMiner.Xgminer.dll</a> and <a href="https://github.com/nwoolls/MultiMiner/tree/master/MultiMiner.Xgminer.Api">MultiMiner.Xgminer.Api.dll</a> to install bfgminer, iterate through available mining devices, and launch the miner.</p>
+
+<p>Afterwards the bfgminer <a href="https://github.com/luke-jr/bfgminer/blob/bfgminer/README.RPC">RPC API</a> is used to output the miner hashrate for a minute before the mining process is stopped. You can try this code out yourself in the <a href="https://github.com/nwoolls/MultiMiner/tree/master/MultiMiner.Api.Example">MultiMiner.Api.Example</a> project.</p>
+
+<p><img src="https://raw.github.com/nwoolls/MultiMiner/master/Screenshots/MultiMiner.Api.Example.png" alt="MultiMiner.Api.Example" title="MultiMiner.Api.Example"></p>
+
+<div class="highlight highlight-csharp"><pre><span class="c1">//examples of using MultiMiner.Xgminer.dll and MultiMiner.Xgminer.Api.dll</span>
+
+<span class="c1">//download and install the latest version of bfgminer</span>
+<span class="k">const</span> <span class="kt">string</span> <span class="n">executablePath</span> <span class="p">=</span> <span class="s">@"D:\bfgminer\"</span><span class="p">;</span>
+<span class="k">const</span> <span class="kt">string</span> <span class="n">executableName</span> <span class="p">=</span> <span class="s">"bfgminer.exe"</span><span class="p">;</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Downloading and installing {0} from {1} to the directory {2}"</span><span class="p">,</span>
+    <span class="n">executableName</span><span class="p">,</span> <span class="n">Xgminer</span><span class="p">.</span><span class="n">Installer</span><span class="p">.</span><span class="n">GetMinerDownloadRoot</span><span class="p">(),</span> <span class="n">executablePath</span><span class="p">);</span>
+
+<span class="c1">//download and install bfgminer from the official website</span>
+<span class="n">Xgminer</span><span class="p">.</span><span class="n">Installer</span><span class="p">.</span><span class="n">InstallMiner</span><span class="p">(</span><span class="n">executablePath</span><span class="p">);</span>
+<span class="k">try</span>
+<span class="p">{</span>
+    <span class="c1">//create an instance of Miner with the downloaded executable</span>
+    <span class="n">MinerConfiguration</span> <span class="n">minerConfiguration</span> <span class="p">=</span> <span class="k">new</span> <span class="n">MinerConfiguration</span><span class="p">()</span>
+    <span class="p">{</span>
+        <span class="n">ExecutablePath</span> <span class="p">=</span> <span class="n">Path</span><span class="p">.</span><span class="n">Combine</span><span class="p">(</span><span class="n">executablePath</span><span class="p">,</span> <span class="n">executableName</span><span class="p">)</span>
+    <span class="p">};</span>
+    <span class="n">Miner</span> <span class="n">miner</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Miner</span><span class="p">(</span><span class="n">minerConfiguration</span><span class="p">);</span>
+
+    <span class="c1">//use it to iterate through devices</span>
+    <span class="n">List</span><span class="p">&lt;</span><span class="n">Device</span><span class="p">&gt;</span> <span class="n">deviceList</span> <span class="p">=</span> <span class="n">miner</span><span class="p">.</span><span class="n">ListDevices</span><span class="p">();</span>
+
+    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Using {0} to list available mining devices"</span><span class="p">,</span> <span class="n">executableName</span><span class="p">);</span>
+
+    <span class="c1">//output devices</span>
+    <span class="k">foreach</span> <span class="p">(</span><span class="n">Device</span> <span class="n">device</span> <span class="k">in</span> <span class="n">deviceList</span><span class="p">)</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Device detected: {0}\t{1}\t{2}"</span><span class="p">,</span> <span class="n">device</span><span class="p">.</span><span class="n">Kind</span><span class="p">,</span> <span class="n">device</span><span class="p">.</span><span class="n">Driver</span><span class="p">,</span> <span class="n">device</span><span class="p">.</span><span class="n">Name</span><span class="p">);</span>
+
+    <span class="c1">//start mining if there are devices</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">deviceList</span><span class="p">.</span><span class="n">Count</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"{0} device(s) detected, mining Bitcoin on Bitminter using all devices"</span><span class="p">,</span> <span class="n">deviceList</span><span class="p">.</span><span class="n">Count</span><span class="p">);</span>
+
+        <span class="c1">//setup a pool</span>
+        <span class="n">MiningPool</span> <span class="n">pool</span> <span class="p">=</span> <span class="k">new</span> <span class="n">MiningPool</span><span class="p">()</span>
+        <span class="p">{</span>
+            <span class="n">Host</span> <span class="p">=</span> <span class="s">"mint.bitminter.com"</span><span class="p">,</span>
+            <span class="n">Port</span> <span class="p">=</span> <span class="m">3333</span><span class="p">,</span>
+            <span class="n">Username</span> <span class="p">=</span> <span class="s">"nwoolls_deepcore"</span><span class="p">,</span>
+            <span class="n">Password</span> <span class="p">=</span> <span class="s">"deepcore"</span>
+        <span class="p">};</span>
+        <span class="n">minerConfiguration</span><span class="p">.</span><span class="n">Pools</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">pool</span><span class="p">);</span>
+
+        <span class="c1">//specify algorithm</span>
+        <span class="n">minerConfiguration</span><span class="p">.</span><span class="n">Algorithm</span> <span class="p">=</span> <span class="n">CoinAlgorithm</span><span class="p">.</span><span class="n">SHA256</span><span class="p">;</span>
+
+        <span class="c1">//disable GPU mining</span>
+        <span class="n">minerConfiguration</span><span class="p">.</span><span class="n">DisableGpu</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+
+        <span class="c1">//specify device indexes to use</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">deviceList</span><span class="p">.</span><span class="n">Count</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+            <span class="n">minerConfiguration</span><span class="p">.</span><span class="n">DeviceDescriptors</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">deviceList</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+
+        <span class="c1">//enable RPC API</span>
+        <span class="n">minerConfiguration</span><span class="p">.</span><span class="n">ApiListen</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+        <span class="n">minerConfiguration</span><span class="p">.</span><span class="n">ApiPort</span> <span class="p">=</span> <span class="m">4028</span><span class="p">;</span>
+
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Launching {0}"</span><span class="p">,</span> <span class="n">executableName</span><span class="p">);</span>
+
+        <span class="c1">//start mining</span>
+        <span class="n">miner</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Miner</span><span class="p">(</span><span class="n">minerConfiguration</span><span class="p">);</span>
+        <span class="n">System</span><span class="p">.</span><span class="n">Diagnostics</span><span class="p">.</span><span class="n">Process</span> <span class="n">minerProcess</span> <span class="p">=</span> <span class="n">miner</span><span class="p">.</span><span class="n">Launch</span><span class="p">();</span>
+        <span class="k">try</span>
+        <span class="p">{</span>
+            <span class="c1">//get an API context</span>
+            <span class="n">Xgminer</span><span class="p">.</span><span class="n">Api</span><span class="p">.</span><span class="n">ApiContext</span> <span class="n">apiContext</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Xgminer</span><span class="p">.</span><span class="n">Api</span><span class="p">.</span><span class="n">ApiContext</span><span class="p">(</span><span class="n">minerConfiguration</span><span class="p">.</span><span class="n">ApiPort</span><span class="p">);</span>
+            <span class="k">try</span>
+            <span class="p">{</span>
+                <span class="c1">//mine for one minute, monitoring hashrate via the API</span>
+                <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="m">6</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+                <span class="p">{</span>
+                    <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">1000</span> <span class="p">*</span> <span class="m">10</span><span class="p">);</span> <span class="c1">//sleep 10s</span>
+
+                    <span class="c1">//query the miner process via its RPC API for device information</span>
+                    <span class="n">List</span><span class="p">&lt;</span><span class="n">Xgminer</span><span class="p">.</span><span class="n">Api</span><span class="p">.</span><span class="n">Responses</span><span class="p">.</span><span class="n">DeviceInformationResponse</span><span class="p">&gt;</span> <span class="n">deviceInformation</span> <span class="p">=</span> <span class="n">apiContext</span><span class="p">.</span><span class="n">GetDeviceInformation</span><span class="p">();</span>
+
+                    <span class="c1">//output device information</span>
+                    <span class="k">foreach</span> <span class="p">(</span><span class="n">Xgminer</span><span class="p">.</span><span class="n">Api</span><span class="p">.</span><span class="n">Responses</span><span class="p">.</span><span class="n">DeviceInformationResponse</span> <span class="n">item</span> <span class="k">in</span> <span class="n">deviceInformation</span><span class="p">)</span>
+                        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Hasrate for device {0}: {1} current, {2} average"</span><span class="p">,</span> <span class="n">item</span><span class="p">.</span><span class="n">Index</span><span class="p">,</span>
+                                <span class="n">item</span><span class="p">.</span><span class="n">CurrentHashrate</span><span class="p">,</span> <span class="n">item</span><span class="p">.</span><span class="n">AverageHashrate</span><span class="p">);</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+            <span class="k">finally</span>
+            <span class="p">{</span>
+                <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Quitting mining via the RPC API"</span><span class="p">);</span>
+
+                <span class="c1">//stop mining, try the API first</span>
+                <span class="n">apiContext</span><span class="p">.</span><span class="n">QuitMining</span><span class="p">();</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">finally</span>
+        <span class="p">{</span>
+            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Killing any remaining process"</span><span class="p">);</span>
+
+            <span class="c1">//then kill the process</span>
+            <span class="k">try</span>
+            <span class="p">{</span>
+                <span class="n">minerProcess</span><span class="p">.</span><span class="n">Kill</span><span class="p">();</span>
+                <span class="n">minerProcess</span><span class="p">.</span><span class="n">WaitForExit</span><span class="p">();</span>
+                <span class="n">minerProcess</span><span class="p">.</span><span class="n">Close</span><span class="p">();</span>
+            <span class="p">}</span>
+            <span class="k">catch</span> <span class="p">(</span><span class="n">InvalidOperationException</span> <span class="n">ex</span><span class="p">)</span>
+            <span class="p">{</span>
+                <span class="c1">//already closed</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">else</span>
+    <span class="p">{</span>
+        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"No devices capable of mining detected"</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="k">finally</span>
+<span class="p">{</span>
+    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Cleaning up, deleting directory {0}"</span><span class="p">,</span> <span class="n">executablePath</span><span class="p">);</span>
+    <span class="n">Directory</span><span class="p">.</span><span class="n">Delete</span><span class="p">(</span><span class="n">executablePath</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">"Press any key to exit"</span><span class="p">);</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">ReadKey</span><span class="p">();</span>
+</pre></div>
+
+<h2>
+<a name="hardware-donations" class="anchor" href="#hardware-donations"><span class="octicon octicon-link"></span></a>Hardware Donations</h2>
+
+<p>To those who may be considering making donations: instead of BTC or LTC I'd very much welcome <strong>any sort of mining hardware</strong>. I'm not talking nasty rigs and I absolutely <strong>do not</strong> expect this. However, several bugs submitted by users have been due to hardware setups that I could not reproduce myself, such as FPGAs or having 10 devices in a single rig.</p>
+
+<p>So if you are thinking of donating but also have some old FPGA that isn't doing much for you with the current Bitcoin difficulty, or some Erupters, or really anything at all that would help me test different hardware setups that would rock. It's <em>way</em> easier to fix issues when I can actually reproduce them myself so this is a <em>very</em> good way to give back.</p>
+
+<p>Again this is <strong>not</strong> expected at all. The best thing you can do is let me know the details of any errors you have so I can fix them for everyone.</p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright (C) 2013 Nathanial Woolls</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/nwoolls">nwoolls</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-19559574-9");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
